@@ -28,7 +28,7 @@ public class EmployeeDao {
 		return "Data is inserted..";
 		
 	}
-	public String DeleteData(int eid) {
+	public String Deletedata(int eid) {
 		Session ss=sf.openSession();
 		Transaction tr=ss.beginTransaction();
 		Employee es=ss.get(Employee.class, eid);
