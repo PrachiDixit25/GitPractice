@@ -19,7 +19,7 @@ public class EmployeeService {
 	return msg;
 	}
 	public String Delete(int eid) {
-		String msg=dao.DeleteData(eid);
+		String msg=dao.Deletedata(eid);
 		return msg;
 	}
 	public String Update(Employee e,int eid) {
